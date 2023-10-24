@@ -1,28 +1,16 @@
 /*  your css code here. If applicable */
-#container {
-    margin: 20px;
-    position: relative;
-}
-
-#container::before {
+p::before{
+    color:#f00;
     content: "Before Element";
-    color: #f00;
     font-size: 20px;
-    position: absolute;
-    top: 0;
 }
-
-#container::before {
-    left: -10px;
-}
-
-#container::after {
-    right: -10px;
-}
-#container::after {
-    content: "After Element";
-    color: #f00;
+p::after{
+    color:#f00;
+    content: "Before Element";
     font-size: 20px;
-    position: absolute;
-    top: 0;
+     
 }
+ #container{
+    margin: 20px;
+ } 
+  
